@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="WCsource.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WChead.h" />
