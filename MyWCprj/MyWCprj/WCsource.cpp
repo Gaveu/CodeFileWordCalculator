@@ -111,6 +111,12 @@ void class_WordCal::myFileFind(string DirPath)	//对vector<string>中第Index个
 	vector<string> vDirPath;
 	string tmpPath;
 	DirList(vDirPath, DirPath + "\\*");
+	
+	if (DirPath.back() == '\\')		//此处判断仅为了使路径统一，将DirPath的最后字节置为空，使得路径的“\”能够统一。
+	{
+		DirPath.erase(DirPath.size()-1);
+	}
+
 	for (i = 0; i < vDirPath.size(); ++i)
 	{
 		tmpPath = DirPath + "\\" + vDirPath[i];
@@ -123,10 +129,11 @@ void class_WordCal::DirList(vector<string> &vStr, string strPath)	//从strPath�
 	vector<string> vStrTmp;
 	_finddata_t fileDir;
 	long lfDir = _findfirst(strPath.c_str(), &fileDir);
+	int tmpPos;
 	
-	if (-1l == lfDir)
+	if (-1l == lfDir)	//尚未实现具体的文件类型识别，仅进行_findfirst是否成功的判断
 	{
-		cout << "DirList:File or dir not found!" << endl;
+		cout << "DirList: "<< strPath <<"   File or dir not found!" << endl;
 	}
 	else
 	{
@@ -139,9 +146,11 @@ void class_WordCal::DirList(vector<string> &vStr, string strPath)	//从strPath�
 			{
 				vStrTmp.push_back(fileDir.name);
 			}
-			else if(FileOrDirName.find(".cpp") != -1
-				|| FileOrDirName.find(".c") != -1
-				|| FileOrDirName.find(".h") != -1)	//代码文件则将其路径传入vStrCodeFilePath中
+			else if(
+					((tmpPos = FileOrDirName.find(".cpp")) != -1 && FileOrDirName[tmpPos + 4] == '\0')	//精确匹配.cpp字串
+				||	((tmpPos = FileOrDirName.find(".c")) != -1  && FileOrDirName[tmpPos + 2] == '\0')	//精确匹配.c字串
+				|| ((tmpPos = FileOrDirName.find(".h")) != -1 && FileOrDirName[tmpPos + 2] == '\0')		//精确匹配.h字串
+				)//代码文件则将其路径传入vStrCodeFilePath中
 			{
 				vStrCodeFilePath.push_back(tmp + FileOrDirName);
 			}

@@ -1,15 +1,13 @@
 ﻿  WCsource.cpp
 i:\han\code\mywcprj\mywcprj\wcsource.cpp(88): warning C4018: '>': signed/unsigned mismatch
 i:\han\code\mywcprj\mywcprj\wcsource.cpp(101): warning C4018: '>=': signed/unsigned mismatch
-i:\han\code\mywcprj\mywcprj\wcsource.cpp(114): warning C4018: '<': signed/unsigned mismatch
-i:\han\code\mywcprj\mywcprj\wcsource.cpp(228): warning C4018: '>=': signed/unsigned mismatch
-i:\han\code\mywcprj\mywcprj\wcsource.cpp(371): warning C4018: '>=': signed/unsigned mismatch
-i:\han\code\mywcprj\mywcprj\wcsource.cpp(487): warning C4018: '>=': signed/unsigned mismatch
-i:\han\code\mywcprj\mywcprj\wcsource.cpp(493): warning C4018: '<': signed/unsigned mismatch
-i:\han\code\mywcprj\mywcprj\wcsource.cpp(513): warning C4018: '>': signed/unsigned mismatch
-i:\han\code\mywcprj\mywcprj\wcsource.cpp(535): warning C4018: '<': signed/unsigned mismatch
-i:\han\code\mywcprj\mywcprj\wcsource.cpp(545): warning C4018: '<': signed/unsigned mismatch
-  main.cpp
-  Generating Code...
-i:\han\code\mywcprj\mywcprj\wcsource.cpp(483): warning C4715: 'class_WordCal::CountFromFileAll': not all control paths return a value
+i:\han\code\mywcprj\mywcprj\wcsource.cpp(120): warning C4018: '<': signed/unsigned mismatch
+i:\han\code\mywcprj\mywcprj\wcsource.cpp(237): warning C4018: '>=': signed/unsigned mismatch
+i:\han\code\mywcprj\mywcprj\wcsource.cpp(380): warning C4018: '>=': signed/unsigned mismatch
+i:\han\code\mywcprj\mywcprj\wcsource.cpp(496): warning C4018: '>=': signed/unsigned mismatch
+i:\han\code\mywcprj\mywcprj\wcsource.cpp(502): warning C4018: '<': signed/unsigned mismatch
+i:\han\code\mywcprj\mywcprj\wcsource.cpp(522): warning C4018: '>': signed/unsigned mismatch
+i:\han\code\mywcprj\mywcprj\wcsource.cpp(544): warning C4018: '<': signed/unsigned mismatch
+i:\han\code\mywcprj\mywcprj\wcsource.cpp(554): warning C4018: '<': signed/unsigned mismatch
+i:\han\code\mywcprj\mywcprj\wcsource.cpp(492): warning C4715: 'class_WordCal::CountFromFileAll': not all control paths return a value
   MyWCprj.vcxproj -> I:\han\Code\MyWCprj\Debug\MyWCprj.exe

@@ -13,7 +13,7 @@ int main(int argc,char *argv[])
 
 	if (argc < 2)
 	{
-		cout << "please input parameter." << endl;
+		cout << "" << endl;
 		return -1;
 	}
 
