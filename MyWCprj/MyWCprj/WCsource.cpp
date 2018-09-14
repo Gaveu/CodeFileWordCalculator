@@ -383,7 +383,7 @@ Status class_WordCal::CountFromFileAll(vector<string> vStr, int Index)	//对vect
 	}
 	int pos;
 	Status tmpStatus;
-	allStatus.bComm1 = allStatus.bComm2 = allStatus.bEffective = allStatus.bEmpty = false;	//高级统计状态机初始化
+	allStatus.bComm1 = allStatus.bComm2 = allStatus.bEffective = false;	//高级统计状态机初始化
 	iNumOfEffectiveLine = iNumOfEmptyLine = iNumOfCommentLine = 0;	//代码行数、空行数、注释行数置零初始化
 	while (!tmpifs.eof())
 	{

@@ -16,7 +16,7 @@ typedef struct {
 	bool bEffective;		//有效行标识
 	bool bComm1;			//	"//"	注释行标识
 	bool bComm2;			//	"/**/"	注释行标识
-	bool bEmpty;			//空行标识
+	//bool bEmpty;			//空行标识
 }AllStatus;	//高级统计状态标识结构体
 
 
@@ -43,7 +43,7 @@ public:
 		allStatus.bComm1 = false;
 		allStatus.bComm2 = false;
 		allStatus.bEffective = false;
-		allStatus.bEmpty = false;
+		//allStatus.bEmpty = false;
 	}
 
 	~class_Data()
