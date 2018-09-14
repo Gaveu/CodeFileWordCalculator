@@ -6,9 +6,7 @@
 
 # MyWCprj.exe
 
-[Github仓库地址](https://github.com/Gaveu/CodeFileWordCalculator)
-
-[博客地址]()
+[博客地址](https://www.cnblogs.com/HelloGaveu/articles/9649541.html)
 
 ## 1. What is MyWCprj.exe?
 
