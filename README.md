@@ -6,7 +6,7 @@
 
 # MyWCprj.exe
 
-[博客地址](https://www.cnblogs.com/HelloGaveu/articles/9649541.html)
+[博客地址](https://www.cnblogs.com/HelloGaveu/p/9649580.html)
 
 ## 1. What is MyWCprj.exe?
 
